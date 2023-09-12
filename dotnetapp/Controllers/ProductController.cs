@@ -31,8 +31,8 @@ namespace dotnetapp.Controllers
     [HttpPost]
     public bool AddProduct(Product newProduct)
     {         
-        return productService.AddProduct(newProduct);   
-        //return false;            
+        //return productService.AddProduct(newProduct);   
+        return false;            
     }   
 
      [HttpDelete]
