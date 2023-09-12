@@ -28,8 +28,6 @@ namespace dotnetapp.Controllers
         //return null;
     }
 
-    p
-
     [HttpPost]
     public bool AddProduct(Product newProduct)
     {         
